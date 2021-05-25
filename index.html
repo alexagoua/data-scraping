@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Le Data Scraping</title>
+<!-- 
+Moonlight Template 
+http://www.templatemo.com/tm-512-moonlight
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/templatemo-main.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+    
+    <div class="sequence">
+  
+      <div class="seq-preloader">
+        <svg width="39" height="16" viewBox="0 0 39 16" xmlns="http://www.w3.org/2000/svg" class="seq-preload-indicator"><g fill="#F96D38"><path class="seq-preload-circle seq-preload-circle-1" d="M3.999 12.012c2.209 0 3.999-1.791 3.999-3.999s-1.79-3.999-3.999-3.999-3.999 1.791-3.999 3.999 1.79 3.999 3.999 3.999z"/><path class="seq-preload-circle seq-preload-circle-2" d="M15.996 13.468c3.018 0 5.465-2.447 5.465-5.466 0-3.018-2.447-5.465-5.465-5.465-3.019 0-5.466 2.447-5.466 5.465 0 3.019 2.447 5.466 5.466 5.466z"/><path class="seq-preload-circle seq-preload-circle-3" d="M31.322 15.334c4.049 0 7.332-3.282 7.332-7.332 0-4.049-3.282-7.332-7.332-7.332s-7.332 3.283-7.332 7.332c0 4.05 3.283 7.332 7.332 7.332z"/></g></svg>
+      </div>
+      
+    </div>
+    
+  
+        <nav>
+          <div class="logo">
+              <img src="img/logo_datascraping2.jpg" alt="">
+          </div>
+          <!-- <div class="mini-logo">
+              <img src="img/mini_logo.png" alt="">
+          </div> -->
+          <ul>
+            <li><a href="#1"><i class="fa fa-home"></i> <em>Définitions</em></a></li>
+            <li><a href="#2"><i class="fa fa-user"></i> <em>Screen Scraping</em></a></li>
+            <li><a href="#3"><i class="fa fa-pencil"></i> <em>Web Scraping</em></a></li>
+            <li><a href="#4"><i class="fa fa-image"></i> <em>Quelques langages utilisés</em></a></li>
+            <li><a href="#5"><i class="fa fa-envelope"></i> <em>Contacts</em></a></li>
+          </ul>
+        </nav>
+        
+        <div class="slides">
+          <div class="slide" id="1">
+            <div class="content first-content">
+              <div class="container-fluid">
+                  <!-- <div class="col-md-3">
+                      <div class="author-image"><img src="img/author_image.png" alt=""></div>
+                  </div> -->
+                  <div class="col-md-9">
+                      <h2>DATA SCRAPING</h2>
+                      <p><em>le data scraping (ou capture, collecte ou extraction de données en français) est une technique par laquelle un programme informatique extrait des informations depuis une source lisible par un humain et produite par un autre programme informatique.</em></p>
+                      <p><em>Le data scraping permet d’extraire des données et de les structurer depuis une source prévue à l’origine pour être lue par un humain et où l’information n’est donc pas structurée, pas documentée, et pas optimisée pour être extraite facilement.</em></p>
+                      <p><em>En général, le data scraping est utilisé pour interfacer un programme avec un programme plus ancien qui ne propose pas d’API ou pour extraire des données depuis une source tierce, parfois sans son accord.</em></p>
+                      <h2>PARSING</h2>
+                      <p><em>La communication de données entre programmes informatiques se fait via des structures de données telles que des APIs, des requêtes en bases de données, des middlewares de messageries. Les données y sont structurées pour l’interprétation par les programmes informatiques donc souvent pas ou peu lisibles par un humain.</em></p>
+                      <p><em>Lorsque deux programmes communiquent de cette façon, par exemple via une API, le programme effectuant la requête va récupérer les données d’une autre application et parcourir la réponse pour y extraire les données. C’est ce qu’on appelle le <strong>PARSING</strong>.</em></p>
+                      <p><em> Il existe plusieurs types de data scraping parmi lesquels le screen scraping (extraction des données depuis un écran) et le plus répandu : le web scraping.</em></p> 
+                      <!-- <div class="main-btn"><a href="#2">Read More</a></div> -->
+                     <!-- <div class="fb-btn"><a href="https://www.facebook.com/templatemo/" target="_blank">Our FB Page</a></div> -->
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide" id="2">
+            <div class="content second-content">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <div class="left-content">
+                            <h2>DÉFINITION</h2>
+                            <p>Le screen scraping, ou capture de données d’écran, consiste à copier des informations qui s’affichent sur un écran d’un équipement numérique pour les utiliser à d’autres fins. Les données visuelles peuvent être collectées sous forme de texte brut à partir d’éléments affichés à l’écran comme du texte ou des images présentés sur le poste de travail, dans une application ou sur un site Web. Le screen scraping peut être effectué automatiquement, à l’aide d’un programme spécifique, ou manuellement, en extrayant les données une à une.</p> 
+                            <h2>FONCTIONNEMENT</h2>
+                            <p>Il existe plusieurs manières d’extraire des données via le screen scraping, selon l’utilisation que l’on veut en faire. Par exemple, à l’aide de Java, une personne peut copier le code source d’une application pour le coller dans la sienne si elle sait comment y accéder directement. En général, le screen scraping permet d’extraire les données affichées à l’écran d’un élément spécifique de l’interface utilisateur ou d’un document. Différentes méthodes peuvent être utilisées pour extraire tout le texte d’une page, formaté ou non formaté, avec son positionnement exact. Les programmes de screen scraping s’articulent parfois autour d’applications telles que Selenium ou PhantomJS, qui permettent aux utilisateurs d’extraire des informations du code HTML d’un navigateur. Il est également possible d’utiliser des outils UNIX, par exemple les scripts Shell, pour des opérations simples de screen scraping.</p>
+                            <h2>DOMAINES D'APPLICATIONS</h2>
+                            <p>
+                                <ul>
+                                    <li><p>Les applications bancaires et les transactions financières ;</p></li>
+                                    <li><p>la sauvegarde de données importantes pour une utilisation ultérieure ;</p></li>
+                                    <li><p>l’exécution d’opérations qu’un utilisateur réaliserait sur un site Web ;</p></li>
+                                    <li><p>la conversion des données d’une application ancienne pour les réutiliser dans une application récente ;</p></li>
+                                    <li><p>l’agrégation de données, par exemple pour bâtir un site Web de comparaison des prix ;</p></li>
+                                    <li><p>le suivi de profils d’utilisateurs pour surveiller leurs activités en ligne ;</p></li>
+                                    <li><p>le vol de données.</p></li>
+                                </ul>
+                            </p>
+                            <p></p>
+                        <!--  <div class="main-btn"><a href="https://www.lemagit.fr">Read More</a></div> -->
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-image">
+                          <img src="img/screen_scraping.jpg" alt="">
+                          <img src="img/uipath.jpg" alt="">
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="slide" id="3">
+            <div class="content second-content">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <div class="left-content">
+                            <h2>DÉFINITION</h2>
+                            <p>Le web scraping (parfois appelé harvesting) est une technique d'extraction du contenu de sites Web, via un script ou un programme, dans le but de le transformer pour permettre son utilisation dans un autre contexte, par exemple le référencement.</p> 
+                            <h2>FONCTIONNEMENT</h2>
+                            <p>Le scraping comprend différentes fonctionnalités, mais on opère généralement une distinction entre le scraping manuel et automatique. Le scraping manuel désigne le fait de copier et insérer manuellement des informations et des données. On peut le comparer avec le fait de découper et rassembler des articles de journaux. Le scraping manuel est uniquement effectué lorsque l’on souhaite trouver et enregistrer des informations de façon sporadique. Il s’agit d’un processus très laborieux qui est rarement appliqué pour de grandes quantités de données.</p>
+                            <p>Dans le cas du scraping automatique, on utilise un logiciel ou un algorithme qui explore plusieurs sites Internet afin d’extraire des informations. Un logiciel spécifique est utilisé en fonction de la nature du site Internet et du contenu. Dans le scraping automatique, on distingue différentes méthodes.</p>
+                            <p><em>Les analyseurs syntaxiques</em></p>
+                            <p>un analyseur syntaxique est utilisé pour convertir le texte en une nouvelle structure. Dans le cas de l’analyse d'un HTML par exemple, le logiciel lit le document HTML et enregistre les informations. L’analyse d’un DOM utilise l’affichage des contenus dans le navigateur côté client pour extraire les données.</p>
+                            <p><em>Les robots</em></p>
+                            <p>un robot est un logiciel réalisant des tâches spécifiques et les automatisant. Dans le Web harvesting, les robots sont utilisés pour explorer automatiquement des sites Internet et collecter des données.</p>
+                            <p><em>Le texte</em></p>
+                            <p>les personnes sachant utiliser la Command Line peuvent utiliser les instructions Unix grep pour explorer le Web à la recherche de certains termes dans Python ou Perl. Il s’agit d’une méthode très simple pour obtenir des données qui requiert toutefois davantage de travail que lorsqu’on utilise un logiciel.</p>
+                            <h2>LÉGALITÉ</h2>
+                            <p>Le scraping n’est pas toujours légal et les « scrapers » doivent tout d’abord respecter les droits d’auteur des sites Internet. Pour certaines boutiques en ligne et prestataires, le Web scraping a des conséquences très négatives, par ex. lorsque le classement d’une page est affecté par des agrégateurs. </p>
+                            <p>Le scraping est donc légal lorsque les données extraites sont librement accessibles par des tiers sur le Web.</p>
+                            <p>Pour vous assurer d’être dans votre bon droit en faisant du Web scraping, respectez les règles suivantes :</p>
+                            <p>Consultez et respectez les droits d’auteur. Lorsque les données sont protégées par des droits d’auteur, elles ne peuvent pas être publiées à un autre endroit.</p>
+                            <p>Les exploitants de site Internet sont en droit d’installer des processus techniques empêchant le Web scraping. En aucun cas, ces processus ne doivent être contournés.</p>
+                            <p>Lorsque l’utilisation des données est liée à une connexion utilisateur ou à un contrat d’utilisation, ces données ne doivent pas faire l’objet d’un Web scraping.</p>
+                            <p>Le fait de masquer de la publicité, des conditions générales d’utilisation ou des clauses de non-responsabilité avec une technologie de scraping est interdit.</p>
+                        <!--  <div class="main-btn"><a href="#3">Read More</a></div> -->
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-image">
+                          <img src="img/web_scrap1.jpg" alt="">
+                          <img src="img/web_scrap2.jpg" alt="">
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="slide" id="4">
+            <div class="content second-content">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <div class="left-content">
+                            <h2>PYTHON</h2>
+                            <p>Python fait partie de la sainte trinité des langages les plus tendances ces dernières années avec Java et, bien sûr, JavaScript. Avec ses performances optimales et ses innombrables modules, Python est tout simplement le langage le plus utilisé pour le web scraping. Le framework BeautifulSoup et la librairie Scrapy sont les deux outils de référence pour le web scraping en Python depuis respectivement 2004 et 2008.</p>
+                            <h2>NODE.JS</h2>
+                            <p>Node.js est un environnement d’exécution pour écrire des applications serveur en JavaScript, le langage client le plus utilisé dans le monde du développement web. Soutenu par une très large communauté et disposant du registre de modules le plus fourni du monde, npm, Node s’est imposé comme un langage serveur phare. Depuis l’arrivée de Puppeteeren 2017, Node s’impose également progressivement comme le meilleur langage pour le web scraping.</p>
+                            <h2>PHP</h2>
+                            <p>On ne présente plus PHP qui est le langage serveur utilisé par près de 8 sites sur 10 dans le monde selon W3Tech. PHP propose des outils très efficaces pour le scraping telles que les librairies Guzzleou Goutte, une solution complète portée par le créateur de Symfony.</p>
+                            <h2>RUBY</h2>
+                            <p>Ruby est un langage qui a été très en vogue au début des années 2000, notamment grâce à son framework de développement web Ruby on Rails utilisé par Airbnb, Twitch, Soundcloud ou encore Github. Supporté par une grande communauté et typé dynamiquement, Ruby propose quelques modules (appelés RubyGems) pour créer un programme de web scraping assez facilement : HTTParty pour les requêtes, NokoGiri pour parser le HTML/XML à l’aide de sélecteurs CSS et XPath et Pry pour le debugging.</p>
+                            <h2>C/C++</h2>
+                            <p>Les sempiternels C et C++ sont des langages fiables et performants et disposent de tous les outils nécessaires au web scraping : libcurl pour télécharger (fetching) les pages HTML, libtidy pour valider le XML et libxml pour traiter (parsing) le contenu et extraire les données voulues. Paralléliser les requêtes de votre programme pour le rendre plus rapide et performant est d’ailleurs très facile dans ces langages.</p>
+                            <h2>R</h2>
+                            <p>Il s’agit du langage qui propose le plus grand nombre de modules dédiés à l’analyse statistique mais R est également utilisé pour le machine learning et propose de très belles visualisations. Il y a donc un intérêt certain à coder le web scraping dans le même langage, d’autant plus que R dispose de tous les modules nécessaires tels que rcrawler pour le crawling, rvest pour le parsing.</p>
+                        <!--  <div class="main-btn"><a href="#3">Read More</a></div> -->
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-image">
+                          <img src="img/langage.jpg" alt="">
+                          <img src="img/da_scr.jpg" alt="">
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div> 
+          <div class="slide" id="5">
+            <div class="content second-content">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <div class="left-content">
+                        <h2>AGOUA YAO ANGE ALEX</h2>
+                        <p><a href="mailto:alex_yao@live.com">Contactez moi</a></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="content">
+              <p>Copyright &copy; MTN DATA IA SIMPLON </p>
+          </div>
+        </div>
+
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/datepicker.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+
+        
+
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 0;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+    </script>
+</body>
+</html>
